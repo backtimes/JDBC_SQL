@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JDBC_SQL:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JDBC_SQL_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JDBC_SQL/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JDBC_SQL" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.ejb.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.jms.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-pool.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mybatis-3.4.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.resource.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.annotation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.persistence.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.transaction.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbcp-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbutils-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet-api-4.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-5.1.39-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
